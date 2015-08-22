@@ -1,0 +1,5 @@
+C:\Projects\TrainCore\Sitecore.Utilities\bin\Release\Generic.SitecoreUtilities.dll
+C:\Projects\TrainCore\Sitecore.Utilities\bin\Release\Generic.SitecoreUtilities.pdb
+C:\Projects\TrainCore\Sitecore.Utilities\obj\Release\Generic.SitecoreUtilities.csprojResolveAssemblyReference.cache
+C:\Projects\TrainCore\Sitecore.Utilities\obj\Release\Generic.SitecoreUtilities.dll
+C:\Projects\TrainCore\Sitecore.Utilities\obj\Release\Generic.SitecoreUtilities.pdb

@@ -1,0 +1,11 @@
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Training.Utilities.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Training.Utilities.pdb
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Sitecore.ContentSearch.Client.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Sitecore.ContentSearch.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Sitecore.ContentSearch.Linq.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Sitecore.ContentSearch.Linq.Lucene.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Sitecore.ContentSearch.LuceneProvider.dll
+C:\Projects\TrainCore\Training.Utilities\obj\Release\Training.Utilities.csprojResolveAssemblyReference.cache
+C:\Projects\TrainCore\Training.Utilities\obj\Release\Training.Utilities.dll
+C:\Projects\TrainCore\Training.Utilities\obj\Release\Training.Utilities.pdb
+C:\Projects\TrainCore\Training.Utilities\bin\Release\Sitecore.Automation.MarketingAutomation.dll

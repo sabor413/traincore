@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Training.Utilities</RootNamespace>
+    <AssemblyName>Training.Utilities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Japanese|AnyCPU'">
+    <OutputPath>bin\Japanese\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'TeamCity|AnyCPU'">
+    <OutputPath>bin\TeamCity\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\Libraries\Lucene.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics">
+      <HintPath>..\Libraries\Sitecore.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Automation.MarketingAutomation">
+      <HintPath>..\Libraries\Sitecore.Automation.MarketingAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch">
+      <HintPath>..\Libraries\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Client">
+      <HintPath>..\Libraries\Sitecore.ContentSearch.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq">
+      <HintPath>..\Libraries\Sitecore.ContentSearch.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq.Lucene">
+      <HintPath>..\Libraries\Sitecore.ContentSearch.Linq.Lucene.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.LuceneProvider">
+      <HintPath>..\Libraries\Sitecore.ContentSearch.LuceneProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseCore\Analytics\AnalyticsDatabase.cs" />
+    <Compile Include="BaseCore\Analytics\PageEvent.cs" />
+    <Compile Include="BaseCore\Commands\BlankCommand.cs" />
+    <Compile Include="BaseCore\DebugInformation\Cell.cs" />
+    <Compile Include="BaseCore\DebugInformation\Row.cs" />
+    <Compile Include="BaseCore\DebugInformation\RowCollection.cs" />
+    <Compile Include="BaseCore\Examples\FieldTypeManager.cs" />
+    <Compile Include="BaseCore\Extensions\DateTime.cs" />
+    <Compile Include="BaseCore\Holidays\Booking.cs" />
+    <Compile Include="BaseCore\Holidays\HolidayUtils.cs" />
+    <Compile Include="BaseCore\JSON\JSONHoliday.cs" />
+    <Compile Include="BaseCore\JSON\JSONPage.cs" />
+    <Compile Include="BaseCore\Membership\MembershipUtils.cs" />
+    <Compile Include="BaseCore\Pipelines\CascadeDataSource.cs" />
+    <Compile Include="BaseCore\Handler\LayoutInheritance.cs" />
+    <Compile Include="BaseCore\Pipelines\HolidayBookingPipeline.cs" />
+    <Compile Include="BaseCore\Pipelines\HolidayBookingPipelineArgs.cs" />
+    <Compile Include="BaseCore\Pipelines\IHolidayBookingPipeline.cs" />
+    <Compile Include="BaseCore\Polls\Answer.cs" />
+    <Compile Include="BaseCore\Polls\Poll.cs" />
+    <Compile Include="BaseCore\Presentation\BaseWidget.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseCore\Presentation\BaseSublayout.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseCore\Presentation\BaseContainer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaseCore\References\MembershipReferences.cs" />
+    <Compile Include="BaseCore\References\MessageReferences.cs" />
+    <Compile Include="BaseCore\References\ParameterReference.cs" />
+    <Compile Include="BaseCore\References\TemplateReferences.cs" />
+    <Compile Include="BaseCore\References\DeviceReferences.cs" />
+    <Compile Include="BaseCore\References\Keys.cs" />
+    <Compile Include="BaseCore\Search\ComputedFieldRenderedImage.cs" />
+    <Compile Include="BaseCore\Search\ComputedFieldRenderedText.cs" />
+    <Compile Include="BaseCore\Search\ComputedFieldLanguage.cs" />
+    <Compile Include="BaseCore\Search\ComputedFieldUrl.cs" />
+    <Compile Include="BaseCore\Search\ComputedHolidayName.cs" />
+    <Compile Include="BaseCore\Search\SearchLinkManager.cs" />
+    <Compile Include="BaseCore\Search\SearchObject.cs" />
+    <Compile Include="BaseCore\Search\SitecorePage.cs" />
+    <Compile Include="BaseCore\UrlUtilities.cs" />
+    <Compile Include="BaseCore\Validators\IsValidCurrency.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BaseCore\References\ItemReferences.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BaseCore\Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sitecore.Utilities\Generic.SitecoreUtilities.csproj">
+      <Project>{17dc255c-6afc-44e4-a755-96a4f2c39eba}</Project>
+      <Name>Generic.SitecoreUtilities</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

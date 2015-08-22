@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training", "Training\Training.csproj", "{27C82C9B-F43C-4781-A0A6-F1049881E156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Controls", "Training.Controls\Training.Controls.csproj", "{4166CB35-2078-497D-B195-BA6BFC02FFC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Utilities", "Training.Utilities\Training.Utilities.csproj", "{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic.SitecoreUtilities", "Sitecore.Utilities\Generic.SitecoreUtilities.csproj", "{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Japanese|Any CPU = Japanese|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TeamCity|Any CPU = TeamCity|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.Japanese|Any CPU.ActiveCfg = Japanese|Any CPU
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.Japanese|Any CPU.Build.0 = Japanese|Any CPU
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.TeamCity|Any CPU.ActiveCfg = TeamCity|Any CPU
+		{27C82C9B-F43C-4781-A0A6-F1049881E156}.TeamCity|Any CPU.Build.0 = TeamCity|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.Japanese|Any CPU.ActiveCfg = Japanese|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.Japanese|Any CPU.Build.0 = Japanese|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.TeamCity|Any CPU.ActiveCfg = TeamCity|Any CPU
+		{4166CB35-2078-497D-B195-BA6BFC02FFC2}.TeamCity|Any CPU.Build.0 = TeamCity|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.Japanese|Any CPU.ActiveCfg = Japanese|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.Japanese|Any CPU.Build.0 = Japanese|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.TeamCity|Any CPU.ActiveCfg = TeamCity|Any CPU
+		{3E329DD3-1D20-4C4A-A3B1-F3A73D404EB2}.TeamCity|Any CPU.Build.0 = TeamCity|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.Japanese|Any CPU.ActiveCfg = Japanese|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.Japanese|Any CPU.Build.0 = Japanese|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.TeamCity|Any CPU.ActiveCfg = TeamCity|Any CPU
+		{17DC255C-6AFC-44E4-A755-96A4F2C39EBA}.TeamCity|Any CPU.Build.0 = TeamCity|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

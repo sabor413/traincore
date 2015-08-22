@@ -1,0 +1,7 @@
+C:\Projects\TrainCore\Training.Advanced\bin\Release\Training.Advanced.dll
+C:\Projects\TrainCore\Training.Advanced\bin\Release\Training.Advanced.pdb
+C:\Projects\TrainCore\Training.Advanced\bin\Release\Sitecore.Kernel.dll
+C:\Projects\TrainCore\Training.Advanced\bin\Release\Sitecore.Kernel.xml
+C:\Projects\TrainCore\Training.Advanced\obj\Release\Training.Advanced.csprojResolveAssemblyReference.cache
+C:\Projects\TrainCore\Training.Advanced\obj\Release\Training.Advanced.dll
+C:\Projects\TrainCore\Training.Advanced\obj\Release\Training.Advanced.pdb

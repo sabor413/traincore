@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Sitecore\traincore\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/BaseCore.ApplicationConfig.config">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.Analytics.config">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.CascadeDatasource.config">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.HtmlCacheClearer.config">
+      <publishTime>12/08/2014 14:10:42</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.LayoutInheritance.config">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.LinksManager.config">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.Pipelines.Bookings.config">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.RegisterEvent.config">
+      <publishTime>03/10/2014 16:13:31</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.RegisterEvent.config.disable">
+      <publishTime>11/18/2014 11:58:26</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.Search.config">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="App_Config/Include/BaseCore/BaseCore.Sites.config">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="bin/AntiXSSLibrary.dll">
+      <publishTime>01/27/2014 14:53:12</publishTime>
+    </File>
+    <File Include="bin/ComponentArt.Web.UI.dll">
+      <publishTime>05/26/2014 17:32:06</publishTime>
+    </File>
+    <File Include="bin/Dms.Jump.TrafficGenerator.Business.dll">
+      <publishTime>10/21/2014 12:09:10</publishTime>
+    </File>
+    <File Include="bin/Generic.SitecoreUtilities.dll">
+      <publishTime>07/31/2015 17:43:46</publishTime>
+    </File>
+    <File Include="bin/Generic.SitecoreUtilities.pdb">
+      <publishTime>07/31/2015 17:43:46</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>05/26/2014 17:41:10</publishTime>
+    </File>
+    <File Include="bin/ITHit.WebDAV.Server.dll">
+      <publishTime>05/26/2014 17:41:10</publishTime>
+    </File>
+    <File Include="bin/Lucene.Net.dll">
+      <publishTime>05/26/2014 17:41:18</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>11/27/2014 11:27:22</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>11/27/2014 11:27:22</publishTime>
+    </File>
+    <File Include="bin/Mvp.Xml.dll">
+      <publishTime>05/26/2014 17:41:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/26/2014 17:41:20</publishTime>
+    </File>
+    <File Include="bin/nunit.core.dll">
+      <publishTime>01/15/2014 09:32:06</publishTime>
+    </File>
+    <File Include="bin/nunit.framework.dll">
+      <publishTime>01/15/2014 10:32:05</publishTime>
+    </File>
+    <File Include="bin/RadEditor.Net2.dll">
+      <publishTime>05/26/2014 17:41:20</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Automation.MarketingAutomation.dll">
+      <publishTime>10/21/2014 12:09:10</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Client.dll">
+      <publishTime>12/12/2014 15:46:20</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.dll">
+      <publishTime>12/12/2014 15:46:20</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Linq.dll">
+      <publishTime>12/12/2014 15:46:22</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.Linq.Lucene.dll">
+      <publishTime>12/12/2014 15:46:22</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.LuceneProvider.dll">
+      <publishTime>12/12/2014 15:46:22</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>08/05/2014 15:24:26</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>05/26/2014 17:41:26</publishTime>
+    </File>
+    <File Include="bin/Sitecore.NVelocity.dll">
+      <publishTime>05/26/2014 17:41:28</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Zip.dll">
+      <publishTime>05/26/2014 17:41:34</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>05/26/2014 17:41:38</publishTime>
+    </File>
+    <File Include="bin/Training.Advanced.dll">
+      <publishTime>01/28/2014 10:16:53</publishTime>
+    </File>
+    <File Include="bin/Training.Advanced.pdb">
+      <publishTime>01/28/2014 10:16:53</publishTime>
+    </File>
+    <File Include="bin/Training.Controls.dll">
+      <publishTime>07/31/2015 17:43:48</publishTime>
+    </File>
+    <File Include="bin/Training.Controls.pdb">
+      <publishTime>07/31/2015 17:43:48</publishTime>
+    </File>
+    <File Include="bin/Training.dll">
+      <publishTime>07/31/2015 17:43:48</publishTime>
+    </File>
+    <File Include="bin/Training.Maintenance.dll">
+      <publishTime>10/13/2014 14:46:07</publishTime>
+    </File>
+    <File Include="bin/Training.Maintenance.pdb">
+      <publishTime>10/13/2014 14:46:07</publishTime>
+    </File>
+    <File Include="bin/Training.pdb">
+      <publishTime>07/31/2015 17:43:48</publishTime>
+    </File>
+    <File Include="bin/Training.Utilities.dll">
+      <publishTime>07/31/2015 17:43:47</publishTime>
+    </File>
+    <File Include="bin/Training.Utilities.pdb">
+      <publishTime>07/31/2015 17:43:47</publishTime>
+    </File>
+    <File Include="Content/formalizeme/assets/formalize.css">
+      <publishTime>04/22/2014 13:42:34</publishTime>
+    </File>
+    <File Include="Content/formalizeme/images/button.png">
+      <publishTime>04/22/2014 13:42:34</publishTime>
+    </File>
+    <File Include="Content/formalizeme/images/select_arrow.gif">
+      <publishTime>04/22/2014 13:42:34</publishTime>
+    </File>
+    <File Include="css/base.css">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/fonts/bebasneue-webfont.eot">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/fonts/bebasneue-webfont.svg">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/fonts/bebasneue-webfont.ttf">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/fonts/bebasneue-webfont.woff">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/fonts/BebasNeue.otf">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="css/layout.css">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="css/lib/base.css">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="css/lib/formalize.css">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/lib/global.css">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="css/responsive.css">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/skeleton.css">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>11/18/2014 12:00:14</publishTime>
+    </File>
+    <File Include="default.css">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="demo/search/SearchDemo.ascx">
+      <publishTime>07/31/2015 17:20:24</publishTime>
+    </File>
+    <File Include="demo/search/SearchDemoPage.aspx">
+      <publishTime>07/31/2015 13:11:45</publishTime>
+    </File>
+    <File Include="img/current.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/demo-2.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/demo-3.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/demo-5.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/demo.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/down.gif">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="img/footer-bg.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/footer-bike-bg.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/arrow-next.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/arrow-prev.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/background.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/example-frame.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/loading.gif">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/new-ribbon.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/page-background.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/lib/pagination.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/loading.gif">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/message.png">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="img/newspaper.png">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="img/page-background.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/print.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/printer.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/rotator-current.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/rotator.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-1.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-2.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-3.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-4.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-5.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-6.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-7.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide-rotator.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/slide.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/textures/darkdenim.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/textures/light_toast.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/textures/light_toast_%402X.png">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/tractor.jpg">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="img/up.gif">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="js/basecore-main.js">
+      <publishTime>01/05/2015 15:57:08</publishTime>
+    </File>
+    <File Include="js/lib/jquery.browser.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="js/lib/jquery.formalize.js">
+      <publishTime>01/15/2014 11:05:01</publishTime>
+    </File>
+    <File Include="js/lib/jquery.min.js">
+      <publishTime>01/15/2014 11:05:01</publishTime>
+    </File>
+    <File Include="js/lib/slides.min.jquery.js">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/BaseCore-JSON.aspx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/BaseCore-Print.aspx">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/BaseCore.aspx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/columns/basecore-columns-onecol.ascx">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/columns/basecore-columns-threecol.ascx">
+      <publishTime>11/18/2014 11:58:26</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/columns/basecore-columns-twocol.ascx">
+      <publishTime>11/18/2014 11:58:26</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/containers/basecore-container-footer.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/containers/basecore-container-gallery.ascx">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/containers/basecore-container-header.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/containers/basecore-container-page.ascx">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/containers/basecore-container-widgets.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/content/basecore-book-holiday.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/content/basecore-debug-information.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/content/basecore-login.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/content/basecore-news-listing.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/content/basecore-traveller-quote.ascx">
+      <publishTime>10/08/2014 13:54:50</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/content/RelatedArticles.ascx">
+      <publishTime>07/30/2015 22:22:28</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/print/basecore-print-holiday.ascx">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/search/basecore-search-form.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/search/basecore-search-results.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/site/basecore-body.ascx">
+      <publishTime>01/05/2015 15:56:18</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/site/basecore-head.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/site/basecore-login-status.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/site/basecore-navigation-main.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/widgets/basecore-poll-widget.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/widgets/basecore-widget-book.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/widgets/basecore-widget-holiday-promotion.ascx">
+      <publishTime>11/18/2014 12:00:14</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/widgets/basecore-widget-holiday-summary.ascx">
+      <publishTime>07/30/2015 23:36:15</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/widgets/basecore-widget-traveller-quote.ascx">
+      <publishTime>11/18/2014 12:00:14</publishTime>
+    </File>
+    <File Include="layouts/BaseCore/widgets/basecore-widget.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="layouts/RefreshData/RefreshAnalytics.ascx">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/21/2014 13:09:11</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/dojo.formalize.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/dojo.formalize.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/extjs.formalize.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/extjs.formalize.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/jquery.formalize.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/jquery.formalize.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/mootools.formalize.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/mootools.formalize.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/prototype.formalize.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/prototype.formalize.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/yui.formalize.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/formalizeme/yui.formalize.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.0.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.0.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.0.min.map">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validation.net.webforms.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validation.net.webforms.min.js">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="sitecore modules/shell/web forms for marketers/themes/BaseCore.css">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="xsl/BaseCore/basecore-breadcrumb.xslt">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="xsl/BaseCore/basecore-glossary.xslt">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+    <File Include="xsl/BaseCore/basecore-itinerary.xslt">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="xsl/BaseCore/basecore-navigation-footer.xslt">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="xsl/BaseCore/basecore-navigation-main.xslt">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="xsl/BaseCore/basecore-navigation.xslt">
+      <publishTime>01/15/2014 09:32:08</publishTime>
+    </File>
+    <File Include="xsl/BaseCore/basecore-section-overview.xslt">
+      <publishTime>10/21/2014 12:09:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

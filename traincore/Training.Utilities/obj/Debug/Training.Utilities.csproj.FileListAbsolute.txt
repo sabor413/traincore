@@ -1,0 +1,22 @@
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Training.Utilities.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Training.Utilities.pdb
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.Client.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.Linq.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.Linq.Lucene.dll
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.LuceneProvider.dll
+C:\Projects\TrainCore\Training.Utilities\obj\Debug\Training.Utilities.csprojResolveAssemblyReference.cache
+C:\Projects\TrainCore\Training.Utilities\obj\Debug\Training.Utilities.dll
+C:\Projects\TrainCore\Training.Utilities\obj\Debug\Training.Utilities.pdb
+C:\Projects\TrainCore\Training.Utilities\bin\Debug\Sitecore.Automation.MarketingAutomation.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Training.Utilities.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Training.Utilities.pdb
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Sitecore.Automation.MarketingAutomation.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.Client.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.Linq.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.Linq.Lucene.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\bin\Debug\Sitecore.ContentSearch.LuceneProvider.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\obj\Debug\Training.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\obj\Debug\Training.Utilities.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Training.Utilities\obj\Debug\Training.Utilities.pdb

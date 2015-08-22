@@ -1,0 +1,14 @@
+C:\Projects\TrainCore\Sitecore.Utilities\bin\Debug\Generic.SitecoreUtilities.dll
+C:\Projects\TrainCore\Sitecore.Utilities\bin\Debug\Generic.SitecoreUtilities.pdb
+C:\Projects\TrainCore\Sitecore.Utilities\obj\Debug\Generic.SitecoreUtilities.dll
+C:\Projects\TrainCore\Sitecore.Utilities\obj\Debug\Generic.SitecoreUtilities.pdb
+C:\Projects\TrainCore\Sitecore.Utilities\obj\Debug\Generic.SitecoreUtilities.csprojResolveAssemblyReference.cache
+C:\Projects\TrainCore\Sitecore.Utilities\bin\Debug\Sitecore.Analytics.Core.dll
+C:\Projects\TrainCore\Sitecore.Utilities\bin\Debug\Sitecore.Analytics.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Sitecore.Utilities\bin\Debug\Generic.SitecoreUtilities.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Sitecore.Utilities\bin\Debug\Generic.SitecoreUtilities.pdb
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Sitecore.Utilities\bin\Debug\Sitecore.Analytics.Core.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Sitecore.Utilities\bin\Debug\Sitecore.Analytics.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Sitecore.Utilities\obj\Debug\Generic.SitecoreUtilities.dll
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Sitecore.Utilities\obj\Debug\Generic.SitecoreUtilities.pdb
+C:\Users\Carlos\Documents\Visual Studio 2013\Projects\traincore\Sitecore.Utilities\obj\Debug\Generic.SitecoreUtilities.csprojResolveAssemblyReference.cache

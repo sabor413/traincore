@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>JQuery.Validation.WebForms</id>
+    <version>1.1.0</version>
+    <title>JQuery Validation for WebForms</title>
+    <authors>bbraithwaite</authors>
+    <owners>bbraithwaite</owners>
+    <projectUrl>https://github.com/bbraithwaite/JQueryValidationForWebForms</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds validation groups to JQuery Validation when working with ASP.Net WebForms.
+
+NOTE: Requires jQuery and jQuery Validation libraries.
+
+See for more details and source: https://github.com/bbraithwaite/JQueryValidationForWebForms</description>
+    <summary>Adds validation groups to JQuery Validation when working with ASP.Net WebForms.</summary>
+  </metadata>
+</package>

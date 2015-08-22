@@ -1,0 +1,8 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="traincore" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="demo\search\SearchDemoPage.aspx" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{98A9DD30-924E-4D98-AA69-4B18A014DAFD}</Item>
+  </File>
+</Project>
